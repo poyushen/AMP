@@ -22,19 +22,23 @@
 
 ### Prepare data  
 positive sequences: APD database  
-negative sequences: Uniprot
+negative sequences: Uniprot  
 protein sequences in `data`:  
 - `benchmark/fa/`: five categories(bacterial, cancer, fungal, viral, hiv) in positive data 
     - `tr_pos.fasta`  
     - `tr_neg.fasta`  
     - `te_pos.fasta`  
     - `te_neg.fasta`  
-    
-    - `tr_bacterial.fasta`, `te_bacterial.fasta`  
-    - `tr_cancer.fasta`, `te_cancer.fasta`  
-    - `tr_fungal.fasta`, `te_fungal.fasta`  
-    - `tr_viral.fasta`, `te_viral.fasta`  
-    - `tr_hiv.fasta`, `te_hiv.fasta`  
+    - `tr_bacterial.fasta`  
+    - `te_bacterial.fasta`  
+    - `tr_cancer.fasta`  
+    - `te_cancer.fasta`  
+    - `tr_fungal.fasta`  
+    - `te_fungal.fasta`  
+    - `tr_viral.fasta`  
+    - `te_viral.fasta`  
+    - `tr_hiv.fasta`  
+    - `te_hiv.fasta`  
 - `scanner/fa/`:  
     - `tr_pos.fasta`  
     - `tr_neg.fasta`  
@@ -48,7 +52,7 @@ To encode the amino acids:
 cd data/
 python3 preprocess.py
 ```
-After preprocess.py, encoded data will be generated in `benchmark/seq/` and `scanner/seq/`.  
+After `preprocess.py`, encoded data will be generated in `benchmark/seq/` and `scanner/seq/`.  
 Then we use these pkl files to train models.  
 
 ### Train models
