@@ -2,21 +2,21 @@
 ## Using heterogeneous CNN (ResNet, DenseNet, SENet) to predict AMP (Antimicrobial Peptide).  
 
 ## Directory Structure  
-- data/: protein sequences  
+- `data/`: protein sequences  
     - benchmark/: Xiao dataset from paper `iAMP-2L`  
     - scanner/: Veltri dataset from paper `AMPScanner`  
-- util/: functions for training, jupyter notebooks for visualization    
-- results/: save models and log  
-    - benchmark/  
-	- SENet/  
-	- SENet_nopool/  
-	- ConcatNet/  
-	- ScannerNet/  
+- `util/`: functions for training, jupyter notebooks for visualization    
+- `results/`: save models and log  
+    - benchmark/
+        - SENet/  
+        - SENet_nopool/  
+        - ConcatNet/  
+        - ScannerNet/  
     - scanner/  
-	- SENet/  
-	- SENet_nopool/  
-	- ConcatNet/  
-	- ScannerNet/  
+        - SENet/  
+        - SENet_nopool/  
+        - ConcatNet/  
+        - ScannerNet/  
 
 ## Experiment  
 
